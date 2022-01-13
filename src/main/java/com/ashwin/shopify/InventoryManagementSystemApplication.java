@@ -16,6 +16,12 @@ public class InventoryManagementSystemApplication implements CommandLineRunner {
 
     @Autowired
     private ItemRepository itemRepository;
+
+    /**
+     * Bean to pre populate some data
+     * @param args
+     * @throws Exception
+     */
     @Override
     public void run(String... args) throws Exception {
         Item book = new Item("Book",3L);

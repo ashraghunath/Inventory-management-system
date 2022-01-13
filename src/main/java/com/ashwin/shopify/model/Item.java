@@ -5,6 +5,11 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import javax.persistence.*;
 import java.util.Date;
 
+/**
+ * Represents item stored in an inventory
+ * @author Ashwin Raghunath
+ * @since 1.0
+ */
 @Entity
 @Table(name = "items")
 public class Item {
@@ -18,10 +23,6 @@ public class Item {
     private String name;
 
     @Column(name = "quantity", nullable = false, length = 6)
-//    @Min(value = 0L, message = "The value must be positive")
-//    @Pattern(regexp = "[\\s]*[0-9]*[1-9]+",message="msg")
-//    @DecimalMax("30.00")
-//    @Digits(integer=6, fraction=2)
     private Long quantity;
 
     @Column(updatable = false)
