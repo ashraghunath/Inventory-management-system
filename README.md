@@ -9,7 +9,7 @@ Java - Spring boot applciation for inventory management system
 1) On Heroku 
 Access the following link
 https://ashwin-shopify-inventory.herokuapp.com/items
-
+Note : Heroku takes some time to restart idle applications so may not work on first try for the inital call.
 
 2) Locally using Docker (docker needs to be installed on the machine)
 Run the following docker cmd on the terminal -
