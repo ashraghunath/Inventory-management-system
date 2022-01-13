@@ -10,7 +10,7 @@ Java - Spring boot applciation for inventory management system
 Access the following link
 https://ashwin-shopify-inventory.herokuapp.com/items
 2) Locally using Docker (docker needs to be installed on the machine)
-Run the following command :
+Run the following command -
 docker run -p 8081:8080 theashwinr/inventory-management-system:1.0
 Here, 8081 is the host port and can be changed.
 ```
