@@ -21,3 +21,5 @@ Here, 8081 is the host port and can be changed.
 Export buttton shows up on top right of items page (NOTE: onyl if items exist)
 Clicking on it will download the data into a CSV file
  ```
+
+[![Screen-Shot-2022-01-13-at-4-45-45-PM.png](https://i.postimg.cc/nhLRTH5Z/Screen-Shot-2022-01-13-at-4-45-45-PM.png)](https://postimg.cc/TpZJ3XfH)
