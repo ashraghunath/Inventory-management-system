@@ -9,11 +9,12 @@ Java - Spring boot applciation for inventory management system
 1) On Heroku 
 Access the following link
 https://ashwin-shopify-inventory.herokuapp.com/items
-Note : Heroku takes some time to restart idle applications so may not work on first try for the inital call.
+Note : Heroku takes some time to restart idle applications so may take some time to work on first try.
 
 2) Locally using Docker (docker needs to be installed on the machine)
 Run the following docker cmd on the terminal -
 docker run -p 8081:8080 theashwinr/inventory-management-system:1.0
+and then proceed to enter the following in the browser http://localhost:8081/items
 Here, 8081 is the host port and can be changed.
 ```
 ### Feature picked : Push a button export product data to a CSV
